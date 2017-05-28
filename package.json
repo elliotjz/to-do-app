@@ -1,0 +1,27 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "to do list app",
+  "engines": {
+    "node": "7.8.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliotjz/to-do-app.git"
+  },
+  "author": "elliotjz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliotjz/to-do-app/issues"
+  },
+  "homepage": "https://github.com/elliotjz/to-do-app#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  }
+}
