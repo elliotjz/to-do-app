@@ -1,7 +1,7 @@
 module.exports = function(app) {
 
 	app.get('/todo', function(req, res) {
-		res.render('todo');
+    	res.sendFile(__dirname + '/../views/todo.html');
 	});
 
 	app.post('/todo', function(req, res) {
